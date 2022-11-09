@@ -1,27 +1,40 @@
-# Next.js + Tailwind CSS Example
+# Fast Marketplace: eCommerce Platform Project
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Fast Marketplace is a case study of a eCommerce platform implemented using Next.js and TypeScript.
 
-## Deploy your own
+<!-- ![smartmockups_la8uydot](https://user-images.githubusercontent.com/42308135/200700075-bf80d3f6-a1db-4763-babb-d271384d061d.jpg) -->
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<!-- 🔗 [Open live Demo](https://writly-nextjs-typescript-tailwind-sanity.vercel.app/) -->
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Tech Stack
 
-## How to use
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- Redux
+- NextAuth
+- Cloud Firestore Database
+- Webhooks
+- Stripe Payments Checkout
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Features
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
+- Responsive UI with Tailwind CSS.
+- State Management with Redux.
+- Modern data fetching and caching techniques using Incremental Static Regeneration (ISR) to speed up page loading.
+- User Authentication Flow with NextAuth.
+- Complete Stripe Payments Checkout Flow
+- Robust code using TypeScript.
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Screenshots
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+(...)
+## Future Implementations
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+(...)
+
+## Deployment details
+
+(...)
+
