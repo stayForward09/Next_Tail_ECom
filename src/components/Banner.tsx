@@ -7,6 +7,7 @@ type Props = {};
 const Banner = (props: Props) => {
   return (
     <div className="relative">
+      <div className="absolute w-full h-40 bg-gradient-to-t from-gray-100 to-transparent bottom-0 z-20" />
       <Carousel
         autoPlay
         infiniteLoop
@@ -21,6 +22,7 @@ const Banner = (props: Props) => {
             height={500}
             src="/fastbooks.png"
             alt="fastbooks"
+            priority
           />
         </div>
         <div>
