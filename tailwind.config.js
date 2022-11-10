@@ -5,13 +5,12 @@ module.exports = {
     "./src/components/**/*.{js,ts,jsx,tsx}",
     "./src/app/**/*.{js,ts,jsx,tsx}",
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       colors: {
         fast_blue: {
-          light: "#5271ff",
-          DEFAULT: "#3552c8",
+          DEFAULT: "#541D9B",
+          light: "#7C2BE8",
         },
       },
     },
