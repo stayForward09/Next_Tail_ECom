@@ -3,6 +3,7 @@ import {
   MagnifyingGlassIcon,
   ShoppingCartIcon,
 } from "@heroicons/react/24/outline";
+import { signIn } from "next-auth/react";
 import Image from "next/image";
 
 type Props = {};
@@ -31,7 +32,7 @@ const Header = (props: Props) => {
         </div>
         {/* right menu */}
         <div className="text-white flex items-center text-xs space-x-6 mx-6 whitespace-nowrap">
-          <div className="link">
+          <div onClick={() => signIn()} className="link">
             <p>Hello Javier Gongora</p>
             <p className="font-extrabold md:text-sm">Account & Lists</p>
           </div>

@@ -4,7 +4,7 @@ Fast Marketplace is a case study of a eCommerce platform implemented using Next.
 
 <!-- ![smartmockups_la8uydot](https://user-images.githubusercontent.com/42308135/200700075-bf80d3f6-a1db-4763-babb-d271384d061d.jpg) -->
 
-<!-- 🔗 [Open live Demo](https://writly-nextjs-typescript-tailwind-sanity.vercel.app/) -->
+🔗 [Open live Demo](https://fast-marketplace-nextjs-typescript-tailwind-redux-1o948jc70.vercel.app/)
 
 ## Tech Stack
 
@@ -36,5 +36,5 @@ Fast Marketplace is a case study of a eCommerce platform implemented using Next.
 
 ## Deployment details
 
-(...)
+Fast Marketplace deployed using Vercel: [https://fast-marketplace-nextjs-typescript-tailwind-redux-1o948jc70.vercel.app/](https://fast-marketplace-nextjs-typescript-tailwind-redux-1o948jc70.vercel.app/)
 
