@@ -1,3 +1,4 @@
+import { useSession } from "next-auth/react";
 import Head from "next/head";
 import { IProduct } from "../../typings";
 import Banner from "../components/Banner";
@@ -5,11 +6,12 @@ import Header from "../components/Header";
 import ProductFeed from "../components/ProductFeed";
 
 type Props = {
-  products: IProduct[]
+  products: IProduct[];
 };
 
 const Home = ({ products }: Props) => {
-  
+  const { data: session } = useSession();
+
   return (
     <div className="bg-gray-100">
       <Head>
