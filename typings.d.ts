@@ -9,4 +9,5 @@ export interface IProduct {
     rate: number;
     count: number;
   };
+  hasFast?: boolean;
 }
