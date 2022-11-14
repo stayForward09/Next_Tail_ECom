@@ -1,6 +1,7 @@
-import { useSession } from "next-auth/react";
+import { GetServerSidePropsContext } from "next";
+import { getSession, useSession } from "next-auth/react";
 import Head from "next/head";
-import { IProduct } from "../../typings";
+import { IProduct, ISession } from "../../typings";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
 import ProductFeed from "../components/ProductFeed";
@@ -32,14 +33,25 @@ const Home = ({ products }: Props) => {
 
 export default Home;
 
-export const getServerSideProps = async () => {
+export const getServerSideProps = async (
+  context: GetServerSidePropsContext
+) => {
+  // Get user logged in credentials
+  const session: ISession | null = await getSession(context);
+  if (!session) {
+    return {
+      props: {},
+    };
+  }
+
   const products = await fetch("https://fakestoreapi.com/products").then(
     (res) => res.json()
   );
 
   return {
     props: {
-      products: products,
+      products,
+      session,
     },
   };
 };
