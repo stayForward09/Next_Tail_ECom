@@ -39,7 +39,7 @@ const Order = ({ order }: Props) => {
       <div className="p-5 sm:p-10">
         <div className="flex space-x-6 overflow-x-auto">
           {order.images.map((image, i) => (
-            <Image className="" key={i} src={image} alt="image" width={128} height={80} />
+            <Image className="object-contain w-40 h-40" key={i} src={image} alt="image" width={128} height={80} />
           ))}
         </div>
       </div>
