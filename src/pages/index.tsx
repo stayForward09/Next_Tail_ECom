@@ -36,17 +36,20 @@ export default Home;
 export const getServerSideProps = async (
   context: GetServerSidePropsContext
 ) => {
+  const products = await fetch("https://fakestoreapi.com/products").then(
+    (res) => res.json()
+  );
+  
   // Get user logged in credentials
   const session: ISession | null = await getSession(context);
   if (!session) {
     return {
-      props: {},
+      props: {
+        products,
+      },
     };
   }
 
-  const products = await fetch("https://fakestoreapi.com/products").then(
-    (res) => res.json()
-  );
 
   return {
     props: {
