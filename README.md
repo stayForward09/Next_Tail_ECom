@@ -1,6 +1,8 @@
 # Fast Marketplace: eCommerce Platform Project
 
-Fast Marketplace is a case study of a eCommerce platform implemented using Next.js, Redux and Stripe Checkout.
+Fast Marketplace is a case study of a eCommerce platform implemented using Next.js, TypeScript, Tailwind CSS, Redux, NextAuth, Cloud Firestore Database, Webhooks, and Stripe Payments Checkout.
+
+Includes eCommerce features like Shopping Cart, Checkout Payment, and Customer Order History.
 
 ![smartmockups_laiiihlb](https://user-images.githubusercontent.com/42308135/201991734-fa2bc896-d49d-4276-8221-a80fd112e4df.jpg)
 
@@ -21,15 +23,16 @@ Fast Marketplace is a case study of a eCommerce platform implemented using Next.
 ## Features
 
 - Responsive UI with Tailwind CSS.
+- Shopping Cart
+- Payment Checkout flow with Stripe
+- Customer Order History
 - State Management with Redux.
-- Modern data fetching and caching techniques using SSR to speed up page loading.
+- Data fetching and caching techniques using SSR (Server Side Rendering) with Next.js.
 - User Authentication with NextAuth.
-- Complete Stripe Payments Checkout Flow
 - Robust code using TypeScript.
 
 ## Screen Captures
 <img src="https://user-images.githubusercontent.com/42308135/201999021-956dac52-2e90-44c5-9ad2-6d3ba47e8237.gif" width="750" />
-
 <img src="https://user-images.githubusercontent.com/42308135/202000898-b3213473-7d99-4a76-a834-69f359b944eb.gif" width="750" />
 
 ## Screenshots
