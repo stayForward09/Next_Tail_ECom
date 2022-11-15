@@ -1,8 +1,8 @@
 # Fast Marketplace: eCommerce Platform Project
 
-Fast Marketplace is a case study of a eCommerce platform implemented using Next.js and TypeScript.
+Fast Marketplace is a case study of a eCommerce platform implemented using Next.js, Redux and Stripe Checkout.
 
-<!-- ![smartmockups_la8uydot](https://user-images.githubusercontent.com/42308135/200700075-bf80d3f6-a1db-4763-babb-d271384d061d.jpg) -->
+![smartmockups_laiiihlb](https://user-images.githubusercontent.com/42308135/201991734-fa2bc896-d49d-4276-8221-a80fd112e4df.jpg)
 
 🔗 [Open live Demo](https://fast-marketplace-nextjs-typescript-tailwind-redux-next-javigong.vercel.app/)
 
@@ -27,11 +27,22 @@ Fast Marketplace is a case study of a eCommerce platform implemented using Next.
 - Complete Stripe Payments Checkout Flow
 - Robust code using TypeScript.
 
+## Screen Captures
+<img src="https://user-images.githubusercontent.com/42308135/201999021-956dac52-2e90-44c5-9ad2-6d3ba47e8237.gif" width="750" />
+
+<img src="https://user-images.githubusercontent.com/42308135/202000898-b3213473-7d99-4a76-a834-69f359b944eb.gif" width="750" />
+
 ## Screenshots
 
-(...)
+<img src="https://user-images.githubusercontent.com/42308135/201992650-10ea69fb-b242-4f0a-8bb6-5c5077d905d8.png" width="750" />
+<img src="https://user-images.githubusercontent.com/42308135/201992966-143562bb-19f9-4278-916a-6d951288fe15.png" width="600" />
+<img src="https://user-images.githubusercontent.com/42308135/201993041-667db403-9234-4aa1-8316-ff9f1448ca2b.png" width="600" />
+<img src="https://user-images.githubusercontent.com/42308135/201993326-aaf43d57-791d-4c8b-8c2d-5265939657e3.png" width="600" />
+<img src="https://user-images.githubusercontent.com/42308135/201993396-2c608f87-e407-4dd9-888c-c8bb37574f5a.png" width="600" />
+
 
 ## Deployment details
+
 
 Fast Marketplace deployed using Vercel: [https://https://fast-marketplace-nextjs-typescript-tailwind-redux-next-javigong.vercel.app/](https://fast-marketplace-nextjs-typescript-tailwind-redux-next-javigong.vercel.app/)
 
