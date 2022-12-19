@@ -46,6 +46,5 @@ Includes eCommerce features like Shopping Cart, Checkout Payment, and Customer O
 
 ## Deployment details
 
-
-Fast Marketplace deployed using Vercel: [https://https://fast-marketplace-nextjs-typescript-tailwind-redux-next-javigong.vercel.app/](https://fast-marketplace-nextjs-typescript-tailwind-redux-next-javigong.vercel.app/)
+Fast Marketplace deployed using Vercel: [https://fast-marketplace-nextjs-typescript-tailwind-git-9ba322-javigong.vercel.app/](https://fast-marketplace-nextjs-typescript-tailwind-git-9ba322-javigong.vercel.app/)
 
