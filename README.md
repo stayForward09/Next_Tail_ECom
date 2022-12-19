@@ -6,7 +6,7 @@ Includes eCommerce features like Shopping Cart, Checkout Payment, and Customer O
 
 ![smartmockups_laiiihlb](https://user-images.githubusercontent.com/42308135/201991734-fa2bc896-d49d-4276-8221-a80fd112e4df.jpg)
 
-🔗 [Open live Demo](https://fast-marketplace-nextjs-typescript-tailwind-redux-next-javigong.vercel.app/)
+🔗 [Open live Demo](https://fast-marketplace-nextjs-typescript-tailwind-git-9ba322-javigong.vercel.app/)
 
 ## Tech Stack
 
