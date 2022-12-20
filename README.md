@@ -6,7 +6,6 @@ Includes eCommerce features like Shopping Cart, Checkout Payment, and Customer O
 
 ![smartmockups_laiiihlb](https://user-images.githubusercontent.com/42308135/201991734-fa2bc896-d49d-4276-8221-a80fd112e4df.jpg)
 
-🔗 [Open live Demo](https://fast-marketplace-nextjs-typescript-tailwind-git-9ba322-javigong.vercel.app/)
 
 ## Tech Stack
 
@@ -43,8 +42,4 @@ Includes eCommerce features like Shopping Cart, Checkout Payment, and Customer O
 <img src="https://user-images.githubusercontent.com/42308135/201993326-aaf43d57-791d-4c8b-8c2d-5265939657e3.png" width="600" />
 <img src="https://user-images.githubusercontent.com/42308135/201993396-2c608f87-e407-4dd9-888c-c8bb37574f5a.png" width="600" />
 
-
-## Deployment details
-
-Fast Marketplace deployed using Vercel: [https://fast-marketplace-nextjs-typescript-tailwind-git-9ba322-javigong.vercel.app/](https://fast-marketplace-nextjs-typescript-tailwind-git-9ba322-javigong.vercel.app/)
 
