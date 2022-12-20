@@ -116,7 +116,7 @@ Now the application is running on http://localhost:3000 🚀
 
 The current Stripe Checkout implementation simulates payments in test mode. 
 
-⛔️ Please, do not use real card details. Use the following test
+⛔️ Please, do not use real card details. Use the following test card details:
 
 * Use a card number, such as 4242 4242 4242 4242. Enter the card number in the Dashboard or in any payment form.
 * Use a valid future date, such as 12/34.
