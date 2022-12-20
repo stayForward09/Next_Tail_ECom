@@ -90,7 +90,19 @@ STRIPE_SIGNING_SECRET=
 HOST=http://localhost:3000
 ```
 
-Finally, install the npm dependencies and run the application:
+To send Stripe events to a local webhook install Stripe CLI, login into your Stripe account, and use the --forward-to flag pointing to the webhook endpoint, and create a trigger for successful customer payments :
+
+```bash
+brew install stripe/stripe-cli/stripe
+
+stripe login
+
+stripe listen --forward-to localhost:3000/api/webhook
+
+stripe trigger checkout.session.completed
+```
+
+Finally, install all the Fast Marketplace dependencies and run the application:
 
 ```bash
 yarn
@@ -100,7 +112,22 @@ yarn dev
 
 Now the application is running on http://localhost:3000 🚀
 
+## How to test Stripe Checkout
+
+The current Stripe Checkout implementation simulates payments in test mode. 
+
+⛔️ Please, do not use real card details. Use the following test
+
+* Use a card number, such as 4242 4242 4242 4242. Enter the card number in the Dashboard or in any payment form.
+* Use a valid future date, such as 12/34.
+* Use any three-digit CVC (four digits for American Express cards).
+* Use any value you like for other form fields.
+
+![Testing form with test card number 4242 4242 4242 4242](https://b.stripecdn.com/docs-statics-srv/assets/test-card.c3f9b3d1a3e8caca3c9f4c9c481fd49c.jpg)
 ## Deployment details
 
-Fast Marketplace deployed using Vercel: [Deployments Activity Log](https://github.com/javigong/fast-marketplace-nextjs-typescript-tailwind-redux-nextauth-firebase/deployments/activity_log?environment=Production)
+Fast Marketplace deployed using Vercel:
 
+[Deployment Activity Log](https://github.com/javigong/fast-marketplace-nextjs-typescript-tailwind-redux-nextauth-firebase/deployments/activity_log?environment=Production)
+
+ 
