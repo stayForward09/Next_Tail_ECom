@@ -58,31 +58,26 @@ code .
 Then, create a .env.local file in the root of the project and configure the following environment variables:
 
 ```
-# Mapbox
-NEXT_PUBLIC_MAPBOX_TOKEN=
-
-# Rapidapi, Hotels API
-NEXT_PUBLIC_RAPIDAPI_KEY=
-
-# Firebase client
-FIREBASE_CLIENT_API_KEY=
-FIREBASE_CLIENT_AUTH_DOMAIN=
-FIREBASE_CLIENT_PROJECT_ID=
-FIREBASE_CLIENT_STORAGE_BUCKET=
-FIREBASE_CLIENT_MESSAGING_SENDER_ID=
-FIREBASE_CLIENT_APP_ID=
-
 # Authentication
-# Need to add Authorized redirect URIs to Google Cloud OAuth Service
-# http://localhost:3000/api/auth/callback/google or https://your.deployment.url.com/api/auth/callback/google
-GOOGLE_CLIENT_ID=
-GOOGLE_CLIENT_SECRET=
+# Need to add Authorized redirect URIs to Google Cloud
+# http://localhost:3000/api/auth/callback/google
+# https://your.deployment.url.com/api/auth/callback/google
+GOOGLE_ID=
+GOOGLE_SECRET=
+NEXTAUTH_URL=http://localhost:3000
 
-# Next Auth
-# You can generate the secret via 'openssl rand -base64 32' on Linux
-# More info: https://next-auth.js.org/configuration/options#secret
-NEXTAUTH_SECRET=
-NEXTAUTH_URL=
+# Firebase
+FIREBASE_API_KEY=
+FIREBASE_AUTH_DOMAIN=
+FIREBASE_PROJECT_ID=
+FIREBASE_STORAGE_BUCKET=
+FIREBASE_MESSAGING_SENDER_ID=
+FIREBASE_APP_ID=
+
+# Firebase Admin SDK
+FIREBASE_ADMIN_PROJECT_ID=
+FIREBASE_ADMIN_PRIVATE_KEY=
+FIREBASE_ADMIN_CLIENT_EMAIL=
 
 # Stripe Payments
 # More info: https://stripe.com/docs/payments/accept-a-payment
@@ -91,6 +86,8 @@ STRIPE_SECRET_KEY=
 
 # Stripe Terminal/CLI
 STRIPE_SIGNING_SECRET=
+
+HOST=http://localhost:3000
 ```
 
 Finally, install the npm dependencies and run the application:
