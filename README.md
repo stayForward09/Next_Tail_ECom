@@ -124,10 +124,9 @@ The current Stripe Checkout implementation simulates payments in test mode.
 * Use any value you like for other form fields.
 
 ![Testing form with test card number 4242 4242 4242 4242](https://b.stripecdn.com/docs-statics-srv/assets/test-card.c3f9b3d1a3e8caca3c9f4c9c481fd49c.jpg)
+
 ## Deployment details
 
 Fast Marketplace deployed using Vercel:
 
 [Deployment Activity Log](https://github.com/javigong/fast-marketplace-nextjs-typescript-tailwind-redux-nextauth-firebase/deployments/activity_log?environment=Production)
-
- 
